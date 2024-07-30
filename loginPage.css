@@ -1,0 +1,58 @@
+/* amu smis styles */
+
+/* 
+**************
+fonts
+**************
+ */
+
+
+
+ /*
+  ************
+  variables
+  ************
+  */
+  :root{
+    --cl-white:#ffff;
+    --cl-black:rgba(0, 0, 0, 0.56);
+    --primary:#ECF0F8;
+    --iconsColor:#e7e7e7;
+    /* height: 100vh; */
+  }
+
+/* 
+**************
+global styles
+**************
+ */
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+ }
+
+ body{
+       background-color: var(--primary);
+      
+       
+
+ }
+
+/* 
+**************
+Header
+**************
+ */
+/* *************
+  animation
+************* */
+@keyframes background-change {
+  from{
+    opacity: 1;
+  }
+to{
+  opacity: 0;
+}
+}
